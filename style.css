@@ -1,0 +1,6 @@
+.glow { font-size:2.5rem; color:#fff; animation: glowEffect 2s infinite alternate; }
+@keyframes glowEffect { from { text-shadow:0 0 5px #00f; } to { text-shadow:0 0 20px #0ff; } }
+.animate-slide { animation: slideDown 1s ease; }
+@keyframes slideDown { from { opacity:0; transform:translateY(-20px);} to { opacity:1; transform:translateY(0);} }
+.product-card:hover { transform:scale(1.05); transition:0.3s ease; }
+.animate-button:hover { transform:scale(1.05); background:#ff6600; transition:0.3s; }
